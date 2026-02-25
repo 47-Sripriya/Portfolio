@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sripriya K | Professional Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth;}
+body{
+  font-family:'Poppins',sans-serif;
+  background:linear-gradient(135deg,#0f0c29,#1a1a40,#000000);
+  color:white;
+  overflow-x:hidden;
+}
+/* Header */
+header{text-align:center;padding:50px 20px;}
+header h1{
+  font-family:'Orbitron',sans-serif;
+  font-size:60px;
+  background:linear-gradient(90deg,#00f2ff,#ff00c8,#00ff99);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  margin-bottom:10px;
+}
+header h2{font-size:24px;color:#00f2ff;margin-bottom:20px;}
+.profile-photo{
+  width:220px;height:220px;
+  border-radius:50%;
+  border:4px solid #00f2ff;
+  object-fit:cover;
+  box-shadow:0 0 50px #00f2ff,0 0 70px #ff00c8;
+}
+
+/* Section styling */
+section{padding:80px 10%;text-align:left;position:relative;}
+section h2{
+  font-size:42px;
+  margin-bottom:30px;
+  background:linear-gradient(90deg,#ff00c8,#00f2ff,#00ff99);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+section p{
+  font-size:18px;
+  line-height:1.8;
+  margin-bottom:20px;
+}
+
+/* Cards */
+.cards-container{
+  display:flex;flex-wrap:wrap;gap:20px;margin-top:20px;
+}
+.card{
+  flex:1 1 calc(33% - 20px);
+  background:rgba(0,255,255,0.1);
+  padding:20px;
+  border-radius:15px;
+  box-shadow:0 0 20px #00f2ff;
+  transition:0.4s;
+}
+.card:hover{
+  transform:scale(1.05);
+  box-shadow:0 0 40px #ff00c8,0 0 60px #00ff99;
+}
+
+/* Resume button */
+.resume-btn{
+  display:inline-block;margin-top:20px;padding:15px 30px;
+  font-weight:bold;border-radius:25px;
+  background:linear-gradient(90deg,#00f2ff,#ff00c8,#00ff99);
+  color:white;text-decoration:none;
+  transition:0.4s;
+}
+.resume-btn:hover{
+  transform:scale(1.1);
+  box-shadow:0 0 30px #ff00c8,0 0 40px #00ff99;
+}
+
+/* Contact */
+.contact-icons{
+  display:flex;gap:25px;margin-top:15px;
+}
+.contact-icons a{
+  color:white;font-size:24px;text-decoration:none;
+  transition:0.3s;
+}
+.contact-icons a:hover{
+  color:#ff00c8;
+  transform:scale(1.2);
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Sripriya K</h1>
+<h2>AI Intern | ML | Deep Learning | UI/UX | Backend</h2>
+<img src="myphoto.jpg" class="profile-photo" alt="Profile Photo">
+</header>
+
+<!-- About Section -->
+<section>
+<h2>About Me</h2>
+<p>
+I am an AI and software enthusiast with a strong foundation in Machine Learning, Deep Learning, UI/UX design, and Backend development. 
+I have worked on multiple projects that integrate intelligent algorithms, structured databases, and user-centered interface design. 
+My goal is to create scalable, enterprise-ready AI solutions that deliver real impact in both technical and business domains.
+</p>
+<p>
+During my internship, I contributed to AI model development, predictive analytics, and system optimization. 
+I constantly explore the latest frameworks and tools to improve performance and efficiency. 
+I aim to combine creativity, problem-solving, and technical expertise to build cutting-edge AI applications.
+</p>
+<a href="resume.pdf" class="resume-btn" target="_blank">Download Resume</a>
+</section>
+
+<!-- Skills Section -->
+<section>
+<h2>Skills</h2>
+<div class="cards-container">
+<div class="card"><strong>Machine Learning:</strong> Python, Scikit-Learn, Data Preprocessing, Supervised & Unsupervised Learning</div>
+<div class="card"><strong>Deep Learning:</strong> CNN, RNN, TensorFlow, PyTorch, Model Optimization</div>
+<div class="card"><strong>UI / UX Design:</strong> Figma, Wireframes, Prototyping, Responsive Design</div>
+<div class="card"><strong>Backend Development:</strong> Java, Node.js, REST APIs, CRUD Operations</div>
+<div class="card"><strong>Database / SQL:</strong> MySQL, PostgreSQL, Query Optimization</div>
+<div class="card"><strong>Tools & Platforms:</strong> Git, GitHub, VS Code, Jupyter Notebook</div>
+</div>
+</section>
+
+<!-- Projects Section -->
+<section>
+<h2>Projects</h2>
+<div class="cards-container">
+<div class="card"><strong>AI Chatbot:</strong> Developed intelligent chatbot using NLP and Deep Learning for customer support automation.</div>
+<div class="card"><strong>Recommendation System:</strong> Built movie recommendation system with collaborative filtering & ML algorithms.</div>
+<div class="card"><strong>UI Dashboard:</strong> Designed interactive admin dashboard for analytics visualization using React & Figma.</div>
+<div class="card"><strong>Data Analysis Project:</strong> Performed large dataset cleaning, analysis, and visualization with Python & SQL.</div>
+</div>
+</section>
+
+<!-- Internship Section -->
+<section>
+<h2>Internship Experience</h2>
+<p>
+AI Intern at XYZ Technologies (6 Months) – Worked on data preprocessing, building predictive models, and backend API integration. 
+Gained practical experience in deploying ML models and working in a collaborative team environment. 
+Focused on integrating user-friendly interface designs with backend AI algorithms for real-time applications.
+</p>
+</section>
+
+<!-- Contact Section -->
+<section>
+<h2>Contact Me</h2>
+<p>You can reach me through the following platforms:</p>
+<div class="contact-icons">
+<a href="mailto:sripriya@example.com">📧 Email</a>
+<a href="https://linkedin.com/in/sripriya" target="_blank">🔗 LinkedIn</a>
+<a href="https://github.com/sripriya" target="_blank">🐙 GitHub</a>
+</div>
+</section>
+
+</body>
+</html>
